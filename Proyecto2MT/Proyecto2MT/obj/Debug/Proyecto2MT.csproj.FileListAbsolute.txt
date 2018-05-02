@@ -1,0 +1,13 @@
+C:\Users\Pimentel\Desktop\Proyecto2MT\Proyecto2MT\bin\Debug\Proyecto2MT.exe.config
+C:\Users\Pimentel\Desktop\Proyecto2MT\Proyecto2MT\bin\Debug\Proyecto2MT.exe
+C:\Users\Pimentel\Desktop\Proyecto2MT\Proyecto2MT\bin\Debug\Proyecto2MT.pdb
+C:\Users\Pimentel\Desktop\Proyecto2MT\Proyecto2MT\obj\Debug\Proyecto2MT.csprojResolveAssemblyReference.cache
+C:\Users\Pimentel\Desktop\Proyecto2MT\Proyecto2MT\obj\Debug\Proyecto2MT.Form1.resources
+C:\Users\Pimentel\Desktop\Proyecto2MT\Proyecto2MT\obj\Debug\Proyecto2MT.Properties.Resources.resources
+C:\Users\Pimentel\Desktop\Proyecto2MT\Proyecto2MT\obj\Debug\Proyecto2MT.csproj.GenerateResource.Cache
+C:\Users\Pimentel\Desktop\Proyecto2MT\Proyecto2MT\obj\Debug\Proyecto2MT.csproj.CoreCompileInputs.cache
+C:\Users\Pimentel\Desktop\Proyecto2MT\Proyecto2MT\obj\Debug\Proyecto2MT.exe
+C:\Users\Pimentel\Desktop\Proyecto2MT\Proyecto2MT\obj\Debug\Proyecto2MT.pdb
+C:\Users\Pimentel\Desktop\Proyecto2MT\Proyecto2MT\obj\Debug\Proyecto2MT.Suma.resources
+C:\Users\Pimentel\Desktop\Proyecto2MT\Proyecto2MT\obj\Debug\Proyecto2MT.Copiar.resources
+C:\Users\Pimentel\Desktop\Proyecto2MT\Proyecto2MT\obj\Debug\Proyecto2MT.Multiplicacion.resources
