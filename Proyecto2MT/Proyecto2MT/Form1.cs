@@ -32,5 +32,12 @@ namespace Proyecto2MT
             Multiplicacion form = new Multiplicacion();
             form.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Resta form = new Resta();
+            form.Show();
+        }
     }
 }

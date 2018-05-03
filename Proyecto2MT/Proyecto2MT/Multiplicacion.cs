@@ -19,7 +19,7 @@ namespace Proyecto2MT
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string Estado = "qo";
+            string Estado = "q0";
             label7.Text = "";
             listBox1.Items.Clear();
             label3.Text = "";
@@ -59,7 +59,7 @@ namespace Proyecto2MT
                     label7.Text = Estado;
                     switch (Estado)
                     {
-                        case "qo":
+                        case "q0":
                             if (caracter == "B")
                             {
                                 listBox1.Items.Add("Paso: " + pasos + " ---> Caracter: " + caracter + " ---> UC= " + Estado + " ---> transicion: (q1,B,R)");

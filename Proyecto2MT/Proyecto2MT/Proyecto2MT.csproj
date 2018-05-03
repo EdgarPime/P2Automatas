@@ -95,6 +95,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Resta.resx">
+      <DependentUpon>Resta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Suma.resx">
       <DependentUpon>Suma.cs</DependentUpon>
     </EmbeddedResource>
