@@ -39,5 +39,12 @@ namespace Proyecto2MT
             Resta form = new Resta();
             form.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Copiar form = new Copiar();
+            form.Show();
+        }
     }
 }
