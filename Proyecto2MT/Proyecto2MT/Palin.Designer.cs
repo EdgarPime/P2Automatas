@@ -1,6 +1,6 @@
 ﻿namespace Proyecto2MT
 {
-    partial class Multiplicacion
+    partial class Palin
     {
         /// <summary>
         /// Required designer variable.
@@ -48,88 +48,88 @@
             this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 20;
-            this.listBox1.Location = new System.Drawing.Point(44, 198);
+            this.listBox1.Location = new System.Drawing.Point(14, 194);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(590, 244);
-            this.listBox1.TabIndex = 24;
+            this.listBox1.TabIndex = 36;
             // 
             // label7
             // 
             this.label7.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label7.Location = new System.Drawing.Point(759, 101);
+            this.label7.Location = new System.Drawing.Point(729, 97);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(56, 24);
-            this.label7.TabIndex = 23;
+            this.label7.TabIndex = 35;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(703, 108);
+            this.label6.Location = new System.Drawing.Point(673, 104);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(27, 17);
-            this.label6.TabIndex = 22;
+            this.label6.TabIndex = 34;
             this.label6.Text = "UC";
             // 
             // label5
             // 
             this.label5.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label5.Location = new System.Drawing.Point(759, 47);
+            this.label5.Location = new System.Drawing.Point(729, 43);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(56, 24);
-            this.label5.TabIndex = 21;
+            this.label5.TabIndex = 33;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(691, 54);
+            this.label4.Location = new System.Drawing.Point(661, 50);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(46, 17);
-            this.label4.TabIndex = 20;
+            this.label4.TabIndex = 32;
             this.label4.Text = "pasos";
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(44, 78);
+            this.dataGridView1.Location = new System.Drawing.Point(14, 74);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(592, 90);
-            this.dataGridView1.TabIndex = 19;
+            this.dataGridView1.TabIndex = 31;
             // 
             // label3
             // 
             this.label3.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(132, 466);
+            this.label3.Location = new System.Drawing.Point(102, 462);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(502, 29);
-            this.label3.TabIndex = 18;
+            this.label3.TabIndex = 30;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(41, 466);
+            this.label2.Location = new System.Drawing.Point(11, 462);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(72, 17);
-            this.label2.TabIndex = 17;
+            this.label2.TabIndex = 29;
             this.label2.Text = "Resultado";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(706, 289);
+            this.button2.Location = new System.Drawing.Point(676, 285);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 32);
-            this.button2.TabIndex = 16;
+            this.button2.TabIndex = 28;
             this.button2.Text = "Regresar";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(706, 198);
+            this.button1.Location = new System.Drawing.Point(676, 194);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 32);
-            this.button1.TabIndex = 15;
+            this.button1.TabIndex = 27;
             this.button1.Text = "Analizar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -137,25 +137,25 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(114, 28);
+            this.textBox1.Location = new System.Drawing.Point(84, 24);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(522, 34);
-            this.textBox1.TabIndex = 14;
+            this.textBox1.TabIndex = 26;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(41, 31);
+            this.label1.Location = new System.Drawing.Point(11, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(57, 17);
-            this.label1.TabIndex = 13;
+            this.label1.TabIndex = 25;
             this.label1.Text = "Cadena";
             // 
-            // Multiplicacion
+            // Palin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(842, 520);
+            this.ClientSize = new System.Drawing.Size(807, 515);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -168,9 +168,8 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
-            this.Name = "Multiplicacion";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Multiplicacion";
+            this.Name = "Palin";
+            this.Text = "Palin";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

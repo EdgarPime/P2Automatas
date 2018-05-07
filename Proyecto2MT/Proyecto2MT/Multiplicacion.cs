@@ -19,7 +19,7 @@ namespace Proyecto2MT
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string Estado = "q0";
+            string Estado = "q1";
             label7.Text = "";
             listBox1.Items.Clear();
             label3.Text = "";
@@ -44,7 +44,7 @@ namespace Proyecto2MT
 
                 dataGridView1.Rows[0].Cells[Chars.Length+1].Value = "B";
 
-                int j = 0;
+                int j = 1;
                 string caracter;
                 bool incorrecto = false;
                 int pasos = 1;
@@ -59,29 +59,9 @@ namespace Proyecto2MT
                     label7.Text = Estado;
                     switch (Estado)
                     {
-                        case "q0":
-                            if (caracter == "B")
-                            {
-                                listBox1.Items.Add("Paso: " + pasos + " ---> Caracter: " + caracter + " ---> UC= " + Estado + " ---> transicion: (q1,B,R)");
-                                Estado = "q1";
-                                dataGridView1.Rows[0].Cells[j].Value = "B";
-                                j++;
-                                dataGridView1.CurrentCell = dataGridView1.Rows[0].Cells[j];
-                                //dataGridView1.Rows[0].Cells[j].Style.BackColor = Color.Aqua;                                
-                                MessageBox.Show("(q1,B,R)");
-
-
-                            }
-                            else
-                            {
-                                MessageBox.Show("No existe la transicion");
-                                incorrecto = true;
-                            }
-
-                            break;
-
+                        
                         case "q1":
-                            if (caracter == "l")
+                            if (caracter == "1")
                             {
                                 listBox1.Items.Add("Paso: " + pasos + " ---> Caracter: " + caracter + " ---> UC= " + Estado + " ---> transicion: (q2,Y,R)");
                                 Estado = "q2";
@@ -474,6 +454,13 @@ namespace Proyecto2MT
 
 
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 form = new Form1();
+            form.Show();
         }
     }
 }

@@ -66,7 +66,7 @@ namespace Proyecto2MT
                     switch (Estado)
                     {
                         case "q0":
-                            if (caracter=="l")
+                            if (caracter=="1")
                             {
                                 listBox1.Items.Add("Paso: " + pasos + " ---> Caracter: " + caracter + " ---> UC= " + Estado + " ---> transicion: (q1,B,R)");
                                 Estado = "q1";
@@ -87,26 +87,26 @@ namespace Proyecto2MT
                             break;
 
                         case "q1":
-                            if (caracter == "l")
+                            if (caracter == "1")
                             {
-                                listBox1.Items.Add("Paso: " + pasos + " ---> Caracter: " + caracter + " ---> UC= " + Estado + " ---> transicion: (q1,l,R)");
+                                listBox1.Items.Add("Paso: " + pasos + " ---> Caracter: " + caracter + " ---> UC= " + Estado + " ---> transicion: (q1,1,R)");
                                 Estado = "q1";
-                                dataGridView1.Rows[0].Cells[j].Value = "l";                               
+                                dataGridView1.Rows[0].Cells[j].Value = "1";                               
                                 j++;
                                 dataGridView1.CurrentCell = dataGridView1.Rows[0].Cells[j];
                                                                 
-                                MessageBox.Show("(q1,l,R)");
+                                MessageBox.Show("(q1,1,R)");
                                 
                             }
                             else if(caracter == "+")
                             {
-                                listBox1.Items.Add("Paso: " + pasos + " ---> Caracter: " + caracter + " ---> UC= " + Estado + " ---> transicion: (q2,l,R)");
+                                listBox1.Items.Add("Paso: " + pasos + " ---> Caracter: " + caracter + " ---> UC= " + Estado + " ---> transicion: (q2,1,R)");
                                 Estado = "q2";
-                                dataGridView1.Rows[0].Cells[j].Value = "l";
+                                dataGridView1.Rows[0].Cells[j].Value = "1";
                                 j++;
                                 dataGridView1.CurrentCell = dataGridView1.Rows[0].Cells[j];
                                 
-                                MessageBox.Show("(q2,l,R)");
+                                MessageBox.Show("(q2,1,R)");
                                 
                             }
                             else
@@ -118,15 +118,15 @@ namespace Proyecto2MT
                             break;
 
                         case "q2":
-                            if (caracter == "l")
+                            if (caracter == "1")
                             {
-                                listBox1.Items.Add("Paso: " + pasos + " ---> Caracter: " + caracter + " ---> UC= " + Estado + " ---> transicion: (q3,l,R)");
+                                listBox1.Items.Add("Paso: " + pasos + " ---> Caracter: " + caracter + " ---> UC= " + Estado + " ---> transicion: (q3,1,R)");
                                 Estado = "q3";
-                                dataGridView1.Rows[0].Cells[j].Value = "l";
+                                dataGridView1.Rows[0].Cells[j].Value = "1";
                                 j++;
                                 dataGridView1.CurrentCell = dataGridView1.Rows[0].Cells[j];
                                 
-                                MessageBox.Show("(q3,l,R)");
+                                MessageBox.Show("(q3,1,R)");
                             }
                             else
                             {
@@ -137,15 +137,15 @@ namespace Proyecto2MT
                             break;
 
                         case "q3":
-                            if (caracter == "l")
+                            if (caracter == "1")
                             {
-                                listBox1.Items.Add("Paso: " + pasos + " ---> Caracter: " + caracter + " ---> UC= " + Estado + " ---> transicion: (q3,l,R)");
+                                listBox1.Items.Add("Paso: " + pasos + " ---> Caracter: " + caracter + " ---> UC= " + Estado + " ---> transicion: (q3,1,R)");
                                 Estado = "q3";
-                                dataGridView1.Rows[0].Cells[j].Value = "l";
+                                dataGridView1.Rows[0].Cells[j].Value = "1";
                                 j++;
                                 dataGridView1.CurrentCell = dataGridView1.Rows[0].Cells[j];
                                 
-                                MessageBox.Show("(q3,l,R)");
+                                MessageBox.Show("(q3,1,R)");
                             }
                             else if (caracter == "=")
                             {
@@ -203,6 +203,13 @@ namespace Proyecto2MT
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 form = new Form1();
+            form.Show();
         }
     }
 }

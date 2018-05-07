@@ -122,6 +122,7 @@
             this.button2.TabIndex = 16;
             this.button2.Text = "Regresar";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -169,6 +170,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Resta";
             this.Text = "Resta";
+            this.Load += new System.EventHandler(this.Resta_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

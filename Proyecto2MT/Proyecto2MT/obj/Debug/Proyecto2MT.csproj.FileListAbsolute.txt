@@ -12,3 +12,4 @@ C:\Users\Pimentel\Desktop\Proyecto2MT\Proyecto2MT\obj\Debug\Proyecto2MT.Suma.res
 C:\Users\Pimentel\Desktop\Proyecto2MT\Proyecto2MT\obj\Debug\Proyecto2MT.Copiar.resources
 C:\Users\Pimentel\Desktop\Proyecto2MT\Proyecto2MT\obj\Debug\Proyecto2MT.Multiplicacion.resources
 C:\Users\Pimentel\Desktop\Proyecto2MT\Proyecto2MT\obj\Debug\Proyecto2MT.Resta.resources
+C:\Users\Pimentel\Desktop\Proyecto2MT\Proyecto2MT\obj\Debug\Proyecto2MT.Palin.resources

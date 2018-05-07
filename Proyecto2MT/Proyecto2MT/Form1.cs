@@ -46,5 +46,17 @@ namespace Proyecto2MT
             Copiar form = new Copiar();
             form.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Palin form = new Palin();
+            form.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
