@@ -22,7 +22,7 @@ namespace Proyecto2MT
             string Estado = "q0";
             label7.Text = "";
             listBox1.Items.Clear();
-            label3.Text = "";
+            textBox2.Text = "";
             String cadena = textBox1.Text;
             label7.Text = Estado;
             if (cadena == "")
@@ -44,6 +44,10 @@ namespace Proyecto2MT
                 string caracter;
                 bool incorrecto = false;
                 int pasos = 1;
+
+                dataGridView1.CurrentCell = dataGridView1.Rows[0].Cells[0];                                              
+                MessageBox.Show("Realizando la resta");
+
                 while (j < dataGridView1.ColumnCount)
                 {
                     if (incorrecto == true)
@@ -255,7 +259,7 @@ namespace Proyecto2MT
                     label7.Text = "q7";
                     for (int i = 0; i < dataGridView1.ColumnCount; i++)
                     {
-                        label3.Text = label3.Text + dataGridView1.Rows[0].Cells[i].Value.ToString();
+                        textBox2.Text = textBox2.Text + dataGridView1.Rows[0].Cells[i].Value.ToString();
                     }
 
                 }

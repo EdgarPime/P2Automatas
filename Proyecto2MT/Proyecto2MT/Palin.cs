@@ -22,7 +22,7 @@ namespace Proyecto2MT
             string Estado = "q0";
             label7.Text = "";
             listBox1.Items.Clear();
-            label3.Text = "";
+            textBox2.Text = "";
             String cadena = textBox1.Text;
             label7.Text = Estado;
             if (cadena == "")
@@ -48,6 +48,9 @@ namespace Proyecto2MT
                 string caracter;
                 bool incorrecto = false;
                 int pasos = 1;
+
+                dataGridView1.CurrentCell = dataGridView1.Rows[0].Cells[0];
+                MessageBox.Show("Verificar si es palindromo");
 
                 while (j < dataGridView1.ColumnCount + 1)
                 {
@@ -439,7 +442,7 @@ namespace Proyecto2MT
                                 listBox1.Items.Add("Paso: " + pasos + " ---> Caracter: " + caracter + " ---> UC= " + Estado + " ---> transicion: (q7,c,L)");
                                 Estado = "q7";
                                 dataGridView1.Rows[0].Cells[j].Value = "c";
-                                j--;
+                                j++;
                                 dataGridView1.CurrentCell = dataGridView1.Rows[0].Cells[j];
                                 //dataGridView1.Rows[0].Cells[j].Style.BackColor = Color.Aqua;                                
                                 MessageBox.Show("(q7,c,L)");
@@ -576,17 +579,17 @@ namespace Proyecto2MT
                 }
                 if (Estado == "q10")
                 {
-                    MessageBox.Show("La cadena es aceptada");
+                    MessageBox.Show("La cadena es palindromo");
                     label7.Text = "q10";
                     for (int i = 0; i < dataGridView1.ColumnCount; i++)
                     {
-                        label3.Text = label3.Text + dataGridView1.Rows[0].Cells[i].Value.ToString();
+                        textBox2.Text = textBox2.Text + dataGridView1.Rows[0].Cells[i].Value.ToString();
                     }
 
                 }
                 else
                 {
-                    MessageBox.Show("La cadena no es aceptada");
+                    MessageBox.Show("La cadena no es palindromo");
                 }
 
 
