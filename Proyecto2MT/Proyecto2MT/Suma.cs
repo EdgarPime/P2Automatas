@@ -78,8 +78,9 @@ namespace Proyecto2MT
                 {
                     AgregarValores();
 
+                    MessageBox.Show("Realizando la resta");
                     dataGridView1.CurrentCell = dataGridView1.Rows[0].Cells[0];                    
-                    //MessageBox.Show("Realizando la suma");
+                  
                 }
                 
                 timer1.Start();
