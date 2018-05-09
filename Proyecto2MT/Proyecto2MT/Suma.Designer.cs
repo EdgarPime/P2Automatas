@@ -157,6 +157,11 @@
             this.textBox2.Size = new System.Drawing.Size(522, 34);
             this.textBox2.TabIndex = 13;
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 500;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Suma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
